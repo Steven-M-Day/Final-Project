@@ -1,0 +1,12 @@
+Design:
+
+Design Patterns:
+ Characters - decorator pattern
+ 
+ Monsters - factory pattern
+ 
+ Combat/Movement - controller pattern
+ 
+ Monster, User, dungeon status - state pattern
+ 
+ Make 10 - 20 dungeon steps/options
