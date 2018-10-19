@@ -1,4 +1,9 @@
-package Monster;
+package ControlTests;
+
+
+import Monster.Monster;
+import Monster.MonsterCreation;
+import Monster.MonsterFactory;
 
 public class MakeMonster {
 

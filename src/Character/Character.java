@@ -4,20 +4,16 @@ public abstract class Character {
 	
 	WeaponBehavior weapon;
 	
-	String name = "Unknown Player";
+	//String name = "Unknown";
 	
-	String description = "Unknown Player";
-	
+	String description = "Unknown Player Description";
+/*	
 	public String getName() {
 		return name;
-	}
+	}*/
 	
 	public String getDescription() {
 		return description;
-	}
-	
-	public void performFight() {
-		FightBehavior.fight();
 	}
 	
 	public abstract double health();

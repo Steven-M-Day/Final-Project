@@ -1,3 +1,4 @@
+package ControlTests;
 import java.awt.Container;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -7,11 +8,11 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class DungeonInterface {
+public class DungeonGUInterface {
 
 	JFrame frame;
 	public static void main(String[] args) {
-		DungeonInterface dungeonInterface = new DungeonInterface();
+		DungeonGUInterface dungeonInterface = new DungeonGUInterface();
 		dungeonInterface.Dungeon();
 	}
 	

@@ -2,7 +2,6 @@ package Character;
 public class Warrior extends Character{
 	
 	public Warrior() {
-		name = "Name";
 		description = "WARRIOR";
 	}
 	

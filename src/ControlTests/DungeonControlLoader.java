@@ -1,4 +1,13 @@
-package DungeonController;
+package ControlTests;
+
+
+import DungeonController.Dungeon;
+import DungeonController.DungeonControlHub;
+import DungeonController.DungeonEnd;
+import DungeonController.DungeonRoom;
+import DungeonController.DungeonRoomEnd;
+import DungeonController.DungeonRoomStart;
+import DungeonController.DungeonStart;
 
 public class DungeonControlLoader {
 

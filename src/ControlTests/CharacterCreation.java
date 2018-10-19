@@ -1,7 +1,14 @@
-package Character;
+package ControlTests;
+
 import Gear.*;
 import java.util.Random;
 import java.util.Scanner;
+
+import Character.Archer;
+import Character.Character;
+import Character.Cleric;
+import Character.Mage;
+import Character.Warrior;
 
 public class CharacterCreation {
 
@@ -75,8 +82,8 @@ public class CharacterCreation {
 				System.out.println("Sorry, not a valid input.");
 			}
 			
-			System.out.println(tank.getName());
-			System.out.println(tank.getDescription());
+			//System.out.println(tank.getName());
+			System.out.println(name + " the " + tank.getDescription());
 			System.out.println("    Health:  " + String.format("%,.2f",tank.health()));
 			System.out.println("    DPS:     " + String.format("%,.2f",tank.dps()));
 			System.out.println("    Heals:   " + String.format("%,.2f",tank.heals()));
@@ -127,8 +134,8 @@ public class CharacterCreation {
 				System.out.println("Sorry, not a valid input.");
 			}
 			
-			System.out.println(mage.getName());
-			System.out.println(mage.getDescription());
+			//System.out.println(mage.getName());
+			System.out.println(name + " the " + mage.getDescription());
 			System.out.println("    Health: " + String.format("%,.2f",mage.health()));
 			System.out.println("    DPS:     " + String.format("%,.2f",mage.dps()));
 			System.out.println("    Heals:   " + String.format("%,.2f",mage.heals()));
@@ -178,8 +185,8 @@ public class CharacterCreation {
 				System.out.println("Sorry, not a valid input.");
 			}
 			
-			System.out.println(healer.getName());
-			System.out.println(healer.getDescription());
+			//System.out.println(healer.getName());
+			System.out.println(name + " the " + healer.getDescription());
 			System.out.println("    Health: " + String.format("%,.2f",healer.health()));
 			System.out.println("    DPS:     " + String.format("%,.2f",healer.dps()));
 			System.out.println("    Heals:   " + String.format("%,.2f",healer.heals()));
@@ -230,8 +237,8 @@ public class CharacterCreation {
 				System.out.println("Sorry, not a valid input.");
 			}
 			
-			System.out.println(archer.getName());
-			System.out.println(archer.getDescription());
+			//System.out.println(archer.getName());
+			System.out.println(name + " the " + archer.getDescription());
 			System.out.println("    Health: " + String.format("%,.2f",archer.health()));
 			System.out.println("    DPS:     " + String.format("%,.2f",archer.dps()));
 			System.out.println("    Heals:   " + String.format("%,.2f",archer.heals()));

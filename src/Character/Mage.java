@@ -2,7 +2,6 @@ package Character;
 public class Mage extends Character{
 
 	public Mage() {
-		name = "Name";
 		description = "MAGE";
 	}
 	
