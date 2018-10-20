@@ -12,6 +12,9 @@ public class MonsterFactory {
 		} else if (type.equals("Treant")) {
 			monster = new Treant();
 			
+		} else if (type.equals("Boss")) {
+			monster = new Boss();
+			
 		}
 		return monster;
 	}

@@ -84,7 +84,6 @@ public class Player {
 	
 	public String toString() {
 		StringBuffer result = new StringBuffer();
-		result.append("---- Battle ----");
 		result.append("\n");
 		result.append("Health: " + count);
 		result.append("\n");

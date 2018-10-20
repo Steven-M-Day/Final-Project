@@ -21,7 +21,11 @@ abstract public class Monster {
 		}
 		
 		public void shout() {
-			System.out.println("You shall not pass!");
+			System.out.println("Monster: You shall not pass!");
+		}
+		
+		public void bossShout() {
+			System.out.println("Boss: I will devour your soul!");
 		}
 		
 		public String toString() {

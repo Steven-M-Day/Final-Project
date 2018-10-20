@@ -38,6 +38,16 @@ public class DungeonState {
 		player.takeDamage(5);
 		System.out.println("");
 		System.out.println(player);
-
+		System.out.println(player.getState());
+		if(player.getState().equals(player.getDeath())) {
+			System.out.println("HELLO");
+		}
+		/*
+		 * 
+		 * 			while(player.getState().equals(player.getHashealthState())) {
+		if(player.getState().equals()) {
+			System.out.println("EAT AN APPLE");
+		}
+		*/
 	}
 }

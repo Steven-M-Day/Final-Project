@@ -12,7 +12,13 @@ public class MonsterCreation {
 		Monster monster;
 		
 		monster = factory.monsterCreation(type);
-		monster.shout();
+		if(monster.name.equals("Boss Man")) {
+			System.out.println("");
+			monster.bossShout();
+		} else {
+			System.out.println("");
+			monster.shout();
+		}
 		
 		return monster;
 	}

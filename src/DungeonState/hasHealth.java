@@ -15,7 +15,8 @@ public class hasHealth implements State {
 	public void takeDamage() {
 		System.out.println("Ouch!");
 		if (player.getCount() <= 0) {
-			System.out.println("YOUDIED!");
+			System.out.println("You have taken your last breathe.");
+			System.out.println("The dungeon has defeated you.");
 			player.setState(player.getDeath());
 		}
 	}
@@ -29,6 +30,6 @@ public class hasHealth implements State {
     }
  
 	public String toString() {
-		return "Ready for more exploring!";
+		return "I am ready for more exploring!";
 	}
 }
